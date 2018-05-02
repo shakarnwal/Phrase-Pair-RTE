@@ -15,7 +15,7 @@ for row in data2:
     newrow.append(row.split('\t',3)[2])
     cleaned_data.append(newrow)    
 
-cleaned_data.insert(0,['truth','hypothesis','majority_label'])
+cleaned_data.insert(0,['text','hypothesis','majority_label'])
 
 headers = cleaned_data.pop(0)
 
